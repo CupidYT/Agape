@@ -388,6 +388,14 @@ footer3{
     background: #161722;
 }
 
+footer4{
+    position: absolute;
+    width: 100%;
+    height: 175px;
+    top: 2000px;
+    background: #161722;
+}
+
 .ft-p{
     position: absolute;
     font-family: 'Cocktail Shaker', cursive;
@@ -1118,8 +1126,9 @@ form {
     width: 1600px;
     height: 758px;
     top: 110px;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* afișează maxim 5 coloane */
+    grid-gap: 20px; /* spațiu între carduri */
 }
 
 .post{
